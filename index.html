@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>CETRAK CETREK LAMPU</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="flex justify-center items-center min-h-screen w-full bg-gray-800 gap-4">
+        <!-- lampu 1 -->
+        <div class="flex flex-col gap-4 items-center">
+            <img src="ASSETS/images/off.gif" alt="" id="lampu1" />
+            <label for="default-toggle1" class="inline-flex items-center cursor-pointer">
+                <input type="checkbox" id="default-toggle1" class="sr-only peer" onchange="saklar()">
+                <div
+                    class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600 dark:peer-checked:bg-blue-600">
+                </div>
+                <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300"></span>
+            </label>
+        </div>
+
+        <!-- lampu 2 -->
+        <div class=" flex flex-col gap-2 items-center">
+            <img src="ASSETS/images/off.gif" alt="" id="lampu2" />
+            <label for="default-toggle2" class="inline-flex items-center cursor-pointer">
+                <input type="checkbox" id="default-toggle2" class="sr-only peer" onchange="saklar()">
+                <div
+                    class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600 dark:peer-checked:bg-blue-600">
+                </div>
+                <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300"></span>
+            </label>
+        </div>
+
+        <!-- lampu 3 -->
+        <div class="flex flex-col gap-2 items-center">
+            <img src="ASSETS/images/off.gif" alt="" id="lampu3" />
+            <label for="default-toggle3" class="inline-flex items-center cursor-pointer">
+                <input type="checkbox" id="default-toggle3" class="sr-only peer" onchange="saklar()">
+                <div
+                    class="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600 dark:peer-checked:bg-blue-600">
+                </div>
+                <span class="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300"></span>
+            </label>
+        </div>
+
+    </div>
+
+    <!-- INI ADALAH SCRIPT JS -->
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script src="saklar.js" type="application/javascript"></script>
+</body>
+
+</html>
+
+<!-- TUGAS CUY UNIVERSITY SESI 4
+ JUDUL SESI: CETRAK CETREK LAMPU JAVASCRIPT
+ 
+ 1. BIKIN 10 LAMPU DENGAN FUNGSI SAMA MATERI PEMBELAJARAN
+ BIKIN 5 GRUP LAMPU (RUANGAN) DENGAN DETAIL SEBAGAI BERIKUT:
+    -RUANGAN KELUARGA (3 LAMPU)
+    -RUANGAN MAKAN (1 LAMPU)
+    -RUANGAN TIDUR (2 LAMPU)
+    -RUANGAN TAMU (4 LAMPU)
+
+    NOTES: ADA TOMBOL SAKLAR PER LAMPU DAN JUGA SAKLAR PER GRUP LAMPU.
+    
+3. BONUS TAMPILAN DI BIKIN MENARIK SEMENARIK MENARIKNYA
+4. BEBAS BERKREASI    -->
