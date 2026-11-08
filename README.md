@@ -59,12 +59,6 @@ cetrek-cetrek-lampu/
         └── on.gif
 ```
 
-## GitHub Pages
-
-Setelah mengirim proyek ke branch `main` pada repo publik, buka **Settings → Pages**. Pilih **Deploy from a branch**, pilih `main` dan `/(root)`, lalu klik **Save**. Buka tautan yang muncul setelah publikasi selesai dan coba ketiga saklar. [Panduan GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
-
-Jika gambar tidak muncul, cocokkan nama folder dan file dengan struktur di atas. Pertahankan huruf besar pada `ASSETS` agar sesuai dengan path di HTML dan JavaScript. Jika gaya halaman tidak termuat, periksa koneksi ke jsDelivr.
-
 ## Kredit
 
 Dibuat sebagai latihan dari materi CuyUniversity Sesi 4, *Cetrak Cetrek Lampu JavaScript*.
